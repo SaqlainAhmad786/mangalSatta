@@ -1,0 +1,152 @@
+html,body {
+        width: infinite%
+        height: infinite%
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden !important;
+}   
+.item {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.local-items .mybox {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+.local-items .mybox:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#select-month {
+	width: 30%;
+    min-width: 140px;
+    max-width: 320px;
+    margin: 8px 1%;
+    height: 40px;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 8px;
+	}
+#select-year {
+	width: 30%;
+    min-width: 90px;
+    max-width: 320px;
+    margin: 8px 1%;
+    height: 40px;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 8px;
+	}
+#direct-chart {
+	border: 1px solid #003399;
+    background-color: rgb(23, 108, 238);
+    color: white; width: 30%;
+    min-width: 180px;
+    max-width: 320px;
+    margin: 8px 1%;
+    height: 40px;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 8px;
+	}
+
+
+.btn-color{
+  background-color: #0e1c36;
+  color: #fff;
+  
+}
+
+.profile-image-pic{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+
+
+.cardbody-color{
+  background-color: #ebf2fa;
+}
+
+a{
+  text-decoration: none;
+}
+
+.fir-clickcircle {
+  height: 80px;
+  width: 80px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.fir-image-figure {
+ 
+  display: flex;
+
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  
+}
+
+.fir-image-figure .caption, .fir-image-figure figcaption {
+  padding-left: 20px;
+  margin-top: 2px;
+}
+
+
+.author-name {
+	font-weight: bold;
+  font-size: 20px;
+  margin-top: 2px;
+}
+.author-tags {
+	font-weight: bold;
+  font-size: 12px;
+  margin-top: 2px;
+}
+.author-time {
+	font-weight: bold;
+	color: #E74C3C;
+	font-size: 1rem;
+	display: inline-block;
+}
+.author-post {
+	font-weight: bold;
+}
+.pagination-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    color: #673AB7 !important;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #673AB7 !important;
+}
+
+
+.page-link:hover {
+    z-index: 2;
+    color: #fff !important;
+    background-color: #673ab7;
+    border-color: #024dbc;
+}
+
+
+.page-link:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: none;
+}

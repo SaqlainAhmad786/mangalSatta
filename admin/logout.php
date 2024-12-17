@@ -1,0 +1,21 @@
+<?php
+	if(isset($_GET['page']))
+	{
+		$page=$_GET['page'];
+	}
+	else
+	{
+		$page=1;
+	}
+	session_start();
+	session_destroy();
+	if($page==2)
+	{
+		header("location:index2.php");
+	}
+	else
+	{
+		header("location:index.php");
+	}
+
+?>
