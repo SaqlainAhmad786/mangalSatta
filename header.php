@@ -33,8 +33,6 @@ if(!defined('MyConst')) {
     <!-- Animate CSS  -->
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/ow.css" rel="stylesheet">
-    <meta name="google-site-verification" content="WwY_mW07KOCHVCvxCEX3ju_M4BkcBvjYu04Y0hd0kYM" />
-    <meta name="msvalidate.01" content="E6A2A2C6EA87936D7748777668472FE3" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	
 </head>

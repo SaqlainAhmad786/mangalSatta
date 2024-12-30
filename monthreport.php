@@ -4,7 +4,7 @@ if(!defined('MyConst')) {
 }
 ?>
 
-            <section>
+            <section style="padding: 0;">
 					<!-- Default box -->
 				<div class="container-fluid">
 						<div class="card border-0">
@@ -69,9 +69,9 @@ if(!defined('MyConst')) {
             ?>
 			<!-- Display Table:: Results -->
 							<div class="card-body table-responsive p-0 text-center">								
-								<table class="table table-bordered table-striped text-center" style="font-weight: bold;">
+								<table class="table table-dark table-bordered table-striped text-center" style="font-weight: bold;">
 								   
-									<thead style="background-color: #D6CFB4">
+									<thead style="background-color: green">
                                         <tr>
                                         	<th>Date/Game</th>
                                         	<?php	

@@ -13,17 +13,17 @@ define('MyConst', TRUE);
 ?>
 <?php include("header.php")?>
 <body id="page-top" data-gr-c-s-loaded="true">
-    <header class="bg-warning text-white">
-         <div id="particles-js">
+    <header class="text-white" style="background-color: #000;">
+         <!-- <div id="particles-js">
             <canvas class="particles-js-canvas-el" width="1903" height="1115" style="width: 100%; height: 100%;"></canvas>
-        </div>
+        </div> -->
        <?php include("nav.php");?>
-<section class="banner-block wow fadeInDown" id="banner" style="overflow-x:hidden;">
+<section class="banner-block wow fadeInDown" id="banner" style="overflow-x:hidden; padding-top: 40px;">
 	<div class="pb-4 mb-4">
-		<div class="row pb-5 mb-5">
+		<div class="row">
 			<div class="col-md-12 text-center">
 				<div class="text-danger" style="font-size: 25px; font-weight: bold;"><span style="background-color: #fff; border-radius: 6px; padding-inline: 6px;">LIVE RESULT</span></div>
-				<div class="text-body" style="font-size: 22px; font-weight: bold; letter-spacing: 2px;">
+				<div class="text-body" style="font-size: 22px; font-weight: bold; letter-spacing: 2px; color: #39ff14;">
 					<?php
     	    //$myDate = date("d M, Y h:i:s a"); 
                 date_default_timezone_set('Asia/Kolkata');
@@ -32,9 +32,9 @@ define('MyConst', TRUE);
         	echo $currentTime;  
     	    ?>
 				</div>
-				<div class="blinking" style="color: #D39D55">हा भाई यही आती हे सबसे पहले खबर रूको और देखो</div>
+				<div class="blinking" style="color: yellow;">हा भाई यही आती हे सबसे पहले खबर रूको और देखो</div>
 			</div>
-			<div class="col-md-12 py-5 my-5 text-center">
+			<div class="col-md-12 py-2 text-center">
 				<?php
     $r_cur = mysqli_query($link,"select * from current");
     while ($ar_cur = mysqli_fetch_assoc($r_cur))
@@ -45,8 +45,8 @@ define('MyConst', TRUE);
 				<?php
     }
 ?>
-			<div class="text-center" style="padding-top: 50px;">
-                    <a href="posting.php" class="btn btn-danger"><b>Go To Guessing</b></a>
+			<div class="text-center" style="padding-top: 16px;">
+                    <a href="posting.php" class="btn btn-danger rounded-0 bg-dark"><b>Go To Guessing</b></a>
                 </div>	
 			</div>
 		</div>
@@ -62,10 +62,10 @@ define('MyConst', TRUE);
 <div class="justify-content-center text-center"><img src="images/gali2-logo.png" width="160" alt="GALI2"></div>
 </div>
 <div class="text-center m-2">
-    <div><b>Any Information Contact Admin 91234-56789</b></div>
+    <div><b class="text-danger">Any Information Contact Admin 91234-56789</b></div>
 </div>
-<div class="text-center p-3 m-2 rounded shadow-sm" style="background: linear-gradient(#D6CFB4, #D39D55);">
-<h1 class="font-weight-bold text-light" style="font-size: 22px; text-shadow: 2px 2px 8px #000;">GALI2</h1>
+<div class="text-center p-3 m-2 rounded shadow-sm" style="background: yellow; border: 3px solid blue;">
+<h1 class="font-weight-bold text-dark" style="font-size: 22px;">GALI2</h1>
     <p class="text-danger"><b>GALI2 Most Popular Trusted Online Khaiwal And Result Provider.</b></p>
 </div>
 <!-- end content -->

@@ -1,10 +1,10 @@
-<div class="text-center p-3" <h2 style="background: linear-gradient(#41474d, #212529); border-top: solid 3px #AF1740; color: #D39D55; font-size: 20px;"><b>GALI2 Results of <?php echo date("F d, Y"); ?> &amp; <?php echo date('F d, Y',strtotime("-1 days")); ?></b></h2></div>
+<div class="text-center p-3" <h2 style="background: black; border-top: solid 3px red; color: red; font-size: 20px;"><b>GALI2 Results of <?php echo date("F d, Y"); ?> &amp; <?php echo date('F d, Y',strtotime("-1 days")); ?></b></h2></div>
     <div class="col-lg-8 col-md-10 col-12 mx-auto table-responsive">
 	<table class="table table-bordered text-center">
 		<thead class="table-dark">
-			<tr>
+			<tr class="text-danger">
 				<th style="width: 50%;">Company Name</th>
-				<th style="width: 10%;">Result Time</th>
+				<th style="width: 10%; white-space:nowrap">Result Time</th>
 			<?php
 			    $month = date("m");
 				$date = date("d"); // Today's date
@@ -21,7 +21,7 @@
 				<th><?php echo date("D. jS");?></th>
 			</tr>
 		</thead>
-            <tbody>
+            <tbody class="table-dark text-primary">
 			<?php
 				$sql99 = "SELECT DISTINCT result.gamename, game.tm FROM result , game where result.gamename = game.gamename order by tm";
 				$r99 = mysqli_query($link,$sql99);
@@ -30,7 +30,7 @@
 					$gm = $ar99['gamename'];
 			?>
 				<tr>
-					<td class="text-dark" style="font-weight: bold; font-size: 1rem;"><?=$gm?></td>
+					<td style="font-weight: bold; font-size: 1rem;"><?=$gm?></td>
 					<td style="font-weight: bold;"><?php echo date('h:i A', strtotime($ar99['tm']))?></td>
 				<?php
 					$month = date("m");

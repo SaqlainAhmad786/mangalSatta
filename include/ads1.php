@@ -5,7 +5,7 @@ if(!defined('MyConst')) {
 ?>
 
 
-<div class="m-2 col-lg-8 col-md-10 col-12 mx-auto" style="background: -webkit-linear-gradient( 0deg,#FFF8E6 0%,#D6CFB4 100%); color: #fff; padding: 10px; border: 5px solid #AF1740;border-radius: 10px; text-align: center;">
+<div class="m-2 col-lg-8 col-md-10 col-12 mx-auto" style="background: aqua; color: #fff; padding: 10px; border: 5px solid blue;border-radius: 10px; text-align: center;">
     <p style="color: #AF1740; font-weight: bold; font-size: 18px;">🙏🏻『P͜͡L͜͡A͜͡Y͜͡ O͜͡N͜͡L͜͡I͜͡N͜͡E͜͡ G͜͡A͜͡M͜͡E͜͡』🙏🏻 <br>
 ▬▭▬▬▭▬▭▬▭▬▭<br>
 🕉 जय श्री महाकाल 🕉<br>

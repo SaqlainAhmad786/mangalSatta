@@ -72,14 +72,14 @@ if(isset($search))
 }
 ?>
 
-    <div class="container">
+    <div class="container bg-dark">
             <div class="row">
                 <div class="col-md-8 mx-auto my-5 wow fadeInUp ">
-                    <center><h4>Search Report</h4></center>
+                    <center><h4 class="text-danger">Search Report</h4></center>
                      <form method="POST" enctype="multipart/form-data">
                         <div class="control-group form-group">
                             <div class="amazing-dashboard-left  wow fadeInLeft">
-                    	<select class="form-control" name="year_s" id="year_s">
+                    	<select class="form-control bg-danger text-white" name="year_s" id="year_s">
 							<option class="hidden" selected disabled>Select Year</option>
 						<?php
 							while ($fieldinfo1 = mysqli_fetch_assoc($r_year)) {	
@@ -93,7 +93,7 @@ if(isset($search))
                         </div>
                         <div class="control-group form-group wow fadeInUp">
                             <div class="controls">
-                                <select class="form-control" name="month_s" id="month_s">
+                                <select class="form-control bg-danger text-white" name="month_s" id="month_s">
 							<option class="hidden" selected disabled>Select Month</option>
 							<option value=01>01</option>
 							<option value=02>02</option>
@@ -114,7 +114,7 @@ if(isset($search))
                         <!-- For success/fail messages -->
 						 <div class="text-center">
 
-							 <button type="submit" class="btn btn-danger" name="search">Search</button>
+							 <button type="submit" class="btn btn-light" name="search">Search</button>
 							</div>
 					<!--	<input type="Submit" name="login" class="btn btn-warning" Value="LOGIN">    -->
 							
@@ -131,7 +131,7 @@ if(isset($search))
 if($result_month == true)
 {
 ?>	
-   <section class="content">
+   <section class="content" style="padding: 0;">
 	<!-- Default box -->
 	<div class="container-fluid">
 		<div class="card">
@@ -145,8 +145,8 @@ if($result_month == true)
 			</div>
 		</div>
 		<div class="card-body table-responsive p-0">						
-    	<table class="table table-bordered table-striped text-center" style="font-weight: bold;">
-		<thead  style="background-color: #F4D03F">
+    	<table class="table table-dark table-bordered table-striped text-center" style="font-weight: bold;">
+		<thead  style="background-color: red">
             <tr>
                	<th>Date/Game</th>
             <?php	

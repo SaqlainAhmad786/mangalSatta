@@ -3,15 +3,15 @@ if(!defined('MyConst')) {
    die('Direct access not permitted');
 }
 ?>
-<div class="m-2 col-lg-8 col-md-10 col-12 mx-auto" style="background: -webkit-linear-gradient( 0deg,#FFF8E6 0%,#D6CFB4 100%); padding: 10px; border: 5px solid #AF1740; border-radius: 10px; text-align: center;">
-    <p style="color: #000; font-weight: bold; font-size: 18px;">🄾🄽🄻🄸🄽🄴 🄺🄷🄰🄸🅆🄰🄻 <br>
+<div class="m-2 col-lg-8 col-md-10 col-12 mx-auto" style="background: black; padding: 10px; border: 5px solid red; color: white; border-radius: 10px; text-align: center;">
+    <p style="color: white; font-weight: bold; font-size: 18px;">🄾🄽🄻🄸🄽🄴 🄺🄷🄰🄸🅆🄰🄻 <br>
 █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█ <br>
 <strong style="color: #0000ff">GALI2 KHAIWAL</strong> <br>
 █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█ <br>
 █𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗡𝗨𝗠𝗕𝗘𝗥█️ <br>
 👉👉 8860552684 👈👈</p>
 
-<p style="color: #000; font-weight: bold; font-size: 18px;">┏××××××××××××××××┓<br>
+<p style="color: white; font-weight: bold; font-size: 18px;">┏××××××××××××××××┓<br>
 ✜✜LAST📱TIME ✜✜ <br>
 ┗××××××××××××××××┛</p>>
 <p style="color: #ff0000; font-weight: bold; font-size: 18px;">❏ ❐ ❑ ❒ ❏ ❐ ❏ ❐ ❑ ❒ ❏ <br>
@@ -41,7 +41,7 @@ if(!defined('MyConst')) {
 ∰ GOOGLEPAY ∰ <br>
 ◇●○◆○●◇●○◆○●◇ </p>
 
-<p style="color: #000; font-weight: bold; font-size: 18px;">
+<p style="color: white; font-weight: bold; font-size: 18px;">
 ❏ ❐ ❑ ❒ ❏ ❐ ❏ ❐ ❑ ❒ ❏ <br>
 👉खाईवाल अपना पर्चा कमीशन पर भेज सकता है।👈 <br>
 ❏ ❐ ❑ ❒ ❏ ❐ ❏ ❐ ❑ ❒ ❏ </p>
@@ -51,7 +51,7 @@ if(!defined('MyConst')) {
 <br>
 <a href="https://wa.me/+9198860552684"><button style="height: 40px;width: auto;background-color: green; color:#FFF;border-radius: 6px;"><font size="4px"><b> <i class="fa-brands fa-whatsapp"></i> 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐍𝐎𝐖</b></font></button></a>
 
-<p style="color: #000; font-weight: bold; font-size: 18px;">गेम ओके का ओर सही टॉटल ही हिसाब होगा <br>
+<p style="color: white; font-weight: bold; font-size: 18px;">गेम ओके का ओर सही टॉटल ही हिसाब होगा <br>
 एक हि पर्चे मे डबल जोड़ी मान्य नही होगी <br>
 विश्वास आपका ओर भरोसा हमारा । <br>
 सबसे फास्ट पेमेंट का वादा </p>
